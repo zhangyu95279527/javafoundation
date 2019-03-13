@@ -15,7 +15,6 @@ package com.foundation;
  *  
  */
 public class Teacher  implements ITeacher, ITeacherAge{
-    //testtt
 	private String name;
 	/**
 	 * @return the name
@@ -28,7 +27,7 @@ public class Teacher  implements ITeacher, ITeacherAge{
 	 * @param name the name to set
 	 */
 	public void setName(String name) {
-		System.out.println("setName "+name);
+		System.out.println("setNamexxx "+name);
 		this.name = name;
 	}
 	/**

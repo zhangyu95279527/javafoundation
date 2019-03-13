@@ -20,7 +20,7 @@ public class TestCaculator {
 	static int [] rateArr = {3, 10, 20,25,30,35,45};
 	static int [] rateValue = {0,2520, 16920, 31920,52920,85920,181920};
 	public static void main(String[] args) {
-		SalaryInfo salaryInfo = new SalaryInfo(10000, 913, 2000);
+		SalaryInfo salaryInfo = new SalaryInfo(1000, 913, 2000);
 		int base = 5000;
 		int lastMonth = 0;
 		int sum = 0;
